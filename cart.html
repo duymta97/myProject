@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="images/favicon.png">
+      <title>Welcome to Jewlery</title>
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,500italic,100italic,100' rel='stylesheet' type='text/css'>
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+     <script type="text/javascript" src="js/script.min.js" ></script>
+     <script type="text/javascript" src="jquery.elevatezoom.js"></script>
+  </head>
+  <body style="color: black;">
+    <div class="wrapper">
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2 col-sm-2">
+              <div class="logo"><a href="index.html"><img src="images/lg2.png" alt="JewleryShop"></a>
+              </div>
+            </div>
+            <div class="col-md-10 col-sm-10">
+              <div class="header_top">
+                <div class="row">
+                  <div class="col-md-3">
+                    <ul class="option_nav">
+                      <li class="dorpdown">
+                        <a href="#">Eng</a>
+                          <ul class="subnav">
+                            <li><a href="#">Eng</a></li>
+                            <li><a href="#">Vns</a></li>
+                            <li><a href="#">Fer</a></li>
+                            <li><a href="#">Gem</a></li>
+                          </ul>
+                      </li>
+                      <li class="dorpdown">
+                        <a href="#">USD</a>
+                          <ul class="subnav">
+                            <li><a href="#">USD</a></li>
+                            <li><a href="#">UKD</a></li>
+                            <li><a href="#">FER</a></li>
+                          </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="topmenu">
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="#">News</a></li>
+                      <li><a href="#">Service</a></li>
+                      <li><a href="#">Recruiment</a></li>
+                      <li><a href="#">Media</a></li>
+                      <li><a href="#">Support</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <ul class="usermenu">
+                      <li><a href="checkout.html" class="log">Login</a></li>
+                      <li><a href="checkout2.html" class="reg">Register</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="header_bottom">
+                <ul class="option">
+                  <li id="search" class="search">
+                    <form><input class="search-submit" type="submit" value=""><input class="search-input" placeholder="Enter your search term..." type="text" value="" name="search"></form>
+                  </li>
+                  <li class="option-cart">
+                    <a href="#" class="cart-icon">cart <span class="cart_no"></span></a>
+                      <ul class="option-cart-item">
+                      </ul>
+                  </li>
+                </ul>
+                <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active dropdown">
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product</a>
+                        <div class="dropdown-menu mega-menu">
+                          <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                              <ul class="mega-menu-links">
+                                <img src="images/jewlery/sale.png" alt=" "/>
+                              </ul>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                              <ul class="mega-menu-links">
+                                <li><a href="ring.html">Rings</a></li>
+                                <li><a href="earring.html">Earrings</a></li>
+                                <li><a href="pendant.html">Pendants</a></li>
+                                <li><a href="necklace.html">Necklaces</a></li>
+                                <li><a href="braceletAndBangle.html">Bracelets & Bangles</a></li>
+                                <li><a href="charm.html">Charms</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </li>
+                    <li><a href="about.html">About US</a></li>
+                    <li><a href="contact.html">Contact US</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>             
+      <div class="clearfix">
+      </div>
+      <div class="container_fullwidth">
+        <div class="container shopping-cart">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="title">
+                Shopping Cart
+              </h3>
+              <div class="clearfix">
+              </div>
+              <table class="shop-table">
+                <thead>
+                  <tr>
+                    <th>
+                      Image
+                    </th>
+                    <th>
+                      Dtails
+                    </th>
+                    <th>
+                      Price
+                    </th>
+                    <th>
+                      Quantity
+                    </th>
+                    <th>
+                      Price
+                    </th>
+                    <th>
+                      Delete
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img src="images/ring/artificial ring/ringA1.jpg" alt="">
+                    </td>
+                    <td>
+                      <div class="shop-details">
+                        <div class="productname">
+                          Sterling Silver Cubic 
+                        </div>
+                        <p>
+                          <img alt="" src="images/star.png">
+                          <a class="review_num" href="#">
+                            02 Review(s)
+                          </a>
+                        </p>
+                        <p>
+                          Product Code : 
+                          <strong class="pcode">
+                            Ring 120
+                          </strong>
+                        </p>
+                      </div>
+                    </td>
+                    <td>
+                      <h5>
+                        $225.00
+                      </h5>
+                    </td>
+                    <td>
+                      <select name="" style="color: black;">
+                        <option selected value="1">
+                          1
+                        </option>
+                        <option value="1">
+                          2
+                        </option>
+                        <option value="1">
+                          3
+                        </option>
+                      </select>
+                    </td>
+                    <td>
+                      <h5>
+                        <strong style="color: black;">
+                          $225.00
+                        </strong>
+                      </h5>
+                    </td>
+                    <td>
+                      <a href="#">
+                        <img src="images/remove.png" alt="">
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="6">
+                      <button class="pull-left">
+                        Continue Shopping
+                      </button>
+                      <button class=" pull-right">
+                        Update Shopping Cart
+                      </button>
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
+              <div class="clearfix">
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-6">
+                  <div class="shippingbox">
+                    <h5>
+                      Estimate Shipping And Tax
+                    </h5>
+                    <form>
+                      <label>
+                        Select Country *
+                      </label>
+                      <select class="">
+                        <option value="CA" selected="">
+                          California
+                        </option>
+                        <option value="HI">
+                          Hawaii
+                        </option>
+                        <option value="NY">
+                          New York
+                        </option>
+                      </select>
+                      <label>
+                        State / Province *
+                      </label>
+                      <select class="">
+                        <option value="CA">
+                          California
+                        </option>
+                        <option value="HI" selected="">
+                          Hawaii
+                        </option>
+                        <option value="NY">
+                          New York
+                        </option>
+                      </select>
+                      <label>
+                        Zip / Post Code *
+                      </label>
+                      <select class="">
+                        <option value="CA">
+                          California
+                        </option>
+                        <option value="HI">
+                          Hawaii
+                        </option>
+                        <option value="NY" selected="">
+                          New York
+                        </option>
+                      </select>
+                      <div class="clearfix">
+                      </div>
+                      <button>
+                        Get A Qoute
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="shippingbox">
+                    <h5>
+                      Discount Codes
+                    </h5>
+                    <form>
+                      <label>
+                        Enter your coupon code if you have one
+                      </label>
+                      <input type="text" name="">
+                      <div class="clearfix">
+                      </div>
+                      <button>
+                        Get A Qoute
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="shippingbox">
+                    <div class="subtotal">
+                      <h5>
+                        Sub Total
+                      </h5>
+                      <span>
+                        $225.00
+                      </span>
+                    </div>
+                    <div class="grandtotal">
+                      <h5>
+                        GRAND TOTAL 
+                      </h5>
+                      <span>
+                        $225.00
+                      </span>
+                    </div>
+                    <button>
+                      Process To Checkout
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+              <div class="our-brand">
+                  <h3 class="title"><strong>Our </strong> Brands</h3>
+                  <div class="control"><a id="prev_brand" class="prev" href="#">&lt;</a><a id="next_brand" class="next" href="#">&gt;</a></div>
+                  <ul id="braldLogo">
+                     <li>
+                        <ul class="brand_item">
+                           <li>
+                              <a href="cartier.html">
+                                 <div class="brand-logo"><img src="images/b1.png" alt=""></div>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="buccellati.html">
+                                 <div class="brand-logo"><img src="images/b9.jpg" alt=""></div>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="graff.html">
+                                 <div class="brand-logo"><img src="images/b10.png" alt=""></div>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="piaget.html">
+                                 <div class="brand-logo"><img src="images/b4.jpg" alt=""></div>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="bvlgari.html">
+                                 <div class="brand-logo"><img src="images/b5.jpg" alt=""></div>
+                              </a>
+                           </li>
+                           
+                        </ul>
+                     </li>
+                     <li>
+                        <ul class="brand_item">
+                           <li>
+                              <a href="vancleef.html">
+                                 <div class="brand-logo"><img src="images/b2.png" alt=""></div>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="harryWinston.html">
+                                 <div class="brand-logo"><img src="images/b3.jpg" alt=""></div>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="tiffany.html">
+                                 <div class="brand-logo"><img src="images/b7.png" alt=""></div>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="chopard.html">
+                                 <div class="brand-logo"><img src="images/b8.jpg" alt=""></div>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="mikimoto.html">
+                                 <div class="brand-logo"><img src="images/b6.png" alt=""></div>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      <div class="clearfix">
+      </div>
+      <div class="footer">
+        <div class="footer-info">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="footer-logo">
+                  <a href="#">
+                    <img src="images/lg2.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <h4 class="title">
+                  Contact 
+                  <strong>
+                    Info
+                  </strong>
+                </h4>
+                <p>
+                  No. 19, Nguyen Trai, Hanoi , Vietnam
+                </p>
+                <p>
+                  Call Us : 
+                </p>
+                <p>
+                  Email : 
+                </p>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <h4 class="title">
+                  Customer
+                  <strong>
+                    Support
+                  </strong>
+                </h4>
+                <ul class="support">
+                  <li>
+                    <a href="#">
+                      FAQ
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Payment Option
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Booking Tips
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Infomation
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h4 class="title">
+                  Get Our 
+                  <strong>
+                    Newsletter 
+                  </strong>
+                </h4>
+                <p>
+                  
+                </p>
+                <form class="newsletter">
+                  <input type="text" name="" placeholder="Your email....">
+                  <input type="submit" value="SignUp" class="button">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-info">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+               
+              </div>
+              <div class="col-md-6">
+                <ul class="social-icon">
+                  <li>
+                    <a href="#" class="linkedin">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="google-plus">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="twitter">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="facebook">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+</html>
